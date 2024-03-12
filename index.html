@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="http://www.aladin.co.kr">
+        window.myCallback = function(data) {
+        console.log(data)
+      }
+      myCallback({ data: 'hello world!' })
+    </script>
     <title>Vite + React + TypeScript</title>
   </head>
   <body>
